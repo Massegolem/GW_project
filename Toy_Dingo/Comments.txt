@@ -1,0 +1,2 @@
+Lines 455-460 of /home/tobi/anaconda3/lib/python3.13/site-packages/dingo/pipe/parser.py 
+have to be commented out to create working ini file
