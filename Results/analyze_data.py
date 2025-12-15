@@ -24,8 +24,6 @@ def summarize_posterior(df):
 
 def compare_posteriors(file1, file2):
     """Load and summarize two posterior files side by side."""
-    file1= "GW150914_NPE.hdf5"
-    file2= "GW150914_toy.hdf5"
     df1 = load_dingo_hdf5(file1)
     df2 = load_dingo_hdf5(file2)
 
