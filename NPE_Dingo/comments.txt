@@ -111,3 +111,8 @@ trained in under 20 minimum
 
 for inference correct ram has to be specified in ini file
 set num of samples and batch size to 5000s
+
+
+15.12.2025
+
+Use aproptiate priors!!!!
