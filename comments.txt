@@ -172,3 +172,31 @@ not working training broke off after 22m
 2nd set all 20 done after 58m
 training done after 32m
 full inference of GW150914 in 7m30s
+
+check weight plot for importance sampling!
+current IS not reliably since few dominating weights
+
+Scaled down modell to weak
+
+
+17.12.2025
+
+Reworked environment hopefully ASD generation is now faster
+
+Waveform generation times delta_f=0.25:
+
+num_samples: 50000
+num_training_samples: 500
+um_validation_samples: 100
+34s
+
+num_samples: 10000
+num_training_samples: 5000
+um_validation_samples: 1000
+(old settings) 3m44s
+new settings 3m55s
+
+num_samples: 500000
+num_training_samples: 5000
+um_validation_samples: 1000
+expected 3h20m = 12000 s <
