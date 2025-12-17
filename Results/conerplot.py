@@ -30,6 +30,7 @@ with h5py.File(data_file1, "r") as f:
 
 weights1 = df1["weights"] 
 
+
 with h5py.File(data_file2, "r") as f:
     df2 = pd.DataFrame(f["samples"][:])
 
@@ -48,17 +49,18 @@ label_map = {
 }
 
 
-bins=20
+bins=15
 labels = [label_map[p] for p in params]
 fig = corner.corner(df1[params], bins=bins,  labels=labels, weights=weights1, truths=truths, truth_color="black", color="C0")
 corner.corner(df2[params], bins=bins, fig=fig, labels=labels, color="C1")
 corner.corner(df3[params], bins=bins, fig=fig, labels=labels, color="C2")
+corner.corner(df1[params], bins=bins, fig=fig, weights=weights1, color="C0")
 
 
 legend_elements = [
-    Line2D([0], [0], color="C0", lw=2, label="NPE Importance sampling"),
-    Line2D([0], [0], color="C1", lw=2, label="NPE"),
-    Line2D([0], [0], color="C2", lw=2, label="Toy model"),
+    Line2D([0], [0], color="C0", lw=2, label="NPE small Importance sampling"),
+    Line2D([0], [0], color="C1", lw=2, label="NPE small"),
+    Line2D([0], [0], color="C2", lw=2, label="NPE Toy model"),
 ]
 
 
