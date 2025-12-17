@@ -182,6 +182,10 @@ Scaled down modell to weak
 17.12.2025
 
 Reworked environment hopefully ASD generation is now faster
+fidiucial asd from 6m43s to 2m30s
+clean environment really important!!!!
+
+
 
 Waveform generation times delta_f=0.25:
 
@@ -196,7 +200,14 @@ um_validation_samples: 1000
 (old settings) 3m44s
 new settings 3m55s
 
+S_data:
 num_samples: 500000
 num_training_samples: 5000
 um_validation_samples: 1000
-expected 3h20m = 12000 s <
+expected 3h20m
+actual 48m37s
+
+
+
+S_data asd:
+num_pspds_max =250
