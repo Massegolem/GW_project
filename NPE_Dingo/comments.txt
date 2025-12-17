@@ -167,3 +167,8 @@ asd settings updated to 4s like toy model
 fiducial asd 6m43s
 2nd set error after 10H and 7L 1h3m 
 deleted 3 H and started training
+not working training broke off after 22m
+
+2nd set all 20 done after 58m
+training done after 32m
+full inference of GW150914 in 7m30s
