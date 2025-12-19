@@ -211,5 +211,10 @@ actual 48m37s
 
 S_data asd:
 num_pspds_max =250
+13h26m 
 
-asdas
+Training settings as before
+14h13m
+
+Full inference in 7m15s
+
