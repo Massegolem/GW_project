@@ -216,5 +216,13 @@ num_pspds_max =250
 Training settings as before
 14h13m
 
+19.12.2025
 Full inference in 7m15s
+
+Toy retraining on GPU Laptop
+waveform dataset 10s
+asd dataset 2m35s
+training 4m6s
+inference 2m42
+
 
