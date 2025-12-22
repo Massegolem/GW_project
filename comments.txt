@@ -225,4 +225,7 @@ asd dataset 2m35s
 training 4m6s
 inference 2m42
 
+22.12.2025
+Performance mode has to be reactivated when restarting PC
+
 
