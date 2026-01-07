@@ -228,4 +228,10 @@ inference 2m42
 22.12.2025
 Performance mode has to be reactivated when restarting PC
 
+7.1.2026
+waveform generation needs more ram
+had to decide between higher SVD (-> lower mismatch rate) or more samples
+
+npe_model_S2 training time 2d20h  high SVD
+npe_model_S3 traning time 4d8h  high number of samples
 
