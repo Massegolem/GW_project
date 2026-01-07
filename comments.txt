@@ -236,3 +236,6 @@ npe_model_S2 training time 2d20h  high SVD
 npe_model_S3 traning time 4d8h  high number of samples
 
 use python 3.10.12
+
+gpu laptop low on fast storage
+can I move Kristina Data to low speed ssd?
