@@ -254,3 +254,14 @@ cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
 Set performance mode (if allowed):
 
 sudo cpupower frequency-set -g performance
+
+
+
+14.1.2026
+
+Do I need an ASD dataset from multiple noise files?
+No!
+Noise files are just sampled from fixed psd 
+Psd doesn't change because its just simulated and doesn't
+vary with time
+

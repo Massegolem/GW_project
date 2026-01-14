@@ -12,7 +12,7 @@ from matplotlib.lines import Line2D
 
 
 data_file1= "/home/tobi/Documents/GW_project/Results/outdir/outdir_GW150914_NPE_S/result/GW150914_data0_1126259462-4_sampling.hdf5"
-data_file2= "/home/tobi/Documents/GW_project/Results/outdir/outdir_GW150914_NPE_S2/result/GW150914_data0_1126259462-4_sampling.hdf5"
+#data_file2= "/home/tobi/Documents/GW_project/Results/outdir/outdir_GW150914_NPE_S2/result/GW150914_data0_1126259462-4_sampling.hdf5"
 data_file3= "/home/tobi/Documents/GW_project/Results/outdir/outdir_GW150914_NPE_S3/result/GW150914_data0_1126259462-4_sampling.hdf5"
 
 gwtc1_medians = {
@@ -31,8 +31,8 @@ with h5py.File(data_file1, "r") as f:
 #weights1 = df1["weights"] 
 
 
-with h5py.File(data_file2, "r") as f:
-    df2 = pd.DataFrame(f["samples"][:])
+#with h5py.File(data_file2, "r") as f:
+#    df2 = pd.DataFrame(f["samples"][:])
 
 with h5py.File(data_file3, "r") as f:
     df3 = pd.DataFrame(f["samples"][:])
@@ -53,14 +53,14 @@ bins=15
 labels = [label_map[p] for p in params]
 
 fig = corner.corner(df1[params], bins=bins,  labels=labels, truths=truths, truth_color="black", color="C0")
-corner.corner(df3[params], bins=bins, fig=fig, labels=labels, color="C2")
+corner.corner(df3[params], bins=bins, fig=fig, labels=labels, color="C1")
 #corner.corner(df1[params], bins=bins, fig=fig, labels=labels, weights=weights1, color="C1")
-corner.corner(df2[params], bins=bins, fig=fig, labels=labels, color="C1")
+#corner.corner(df2[params], bins=bins, fig=fig, labels=labels, color="C1")
 
 legend_elements = [
     Line2D([0], [0], color="C0", lw=2, label="NPE_S"),
-    Line2D([0], [0], color="C1", lw=2, label="NPE_S2"),
-    Line2D([0], [0], color="C2", lw=2, label="NPE_S3"),
+    #Line2D([0], [0], color="C1", lw=2, label="NPE_S2"),
+    Line2D([0], [0], color="C1", lw=2, label="NPE_S3"),
 ]
 
 
