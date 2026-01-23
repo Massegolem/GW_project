@@ -265,3 +265,15 @@ Noise files are just sampled from fixed psd
 Psd doesn't change because its just simulated and doesn't
 vary with time
 
+
+Waveforms for final model:
+30-100 in source frame -> might need convert it to detector frame at one gigaparsec
+
+
+chirp mass
+M=(m1​m2​)^{3/5}/​(m1​+m2​)^{1/5}
+
+
+
+Bilby and Dingo ASD has to be identical!!!
+fmin and fmax decide total bin size
