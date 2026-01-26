@@ -277,3 +277,7 @@ M=(m1​m2​)^{3/5}/​(m1​+m2​)^{1/5}
 
 Bilby and Dingo ASD has to be identical!!!
 fmin and fmax decide total bin size
+
+IMRPhenomD # IMRPhenomXPHM for ET for higher order modes
+
+look into higher modes and aproximants for waveform generation
