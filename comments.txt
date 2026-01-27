@@ -281,3 +281,8 @@ fmin and fmax decide total bin size
 IMRPhenomD # IMRPhenomXPHM for ET for higher order modes
 
 look into higher modes and aproximants for waveform generation
+
+
+26.1.2026
+
+svd compression doesn't work with ET ASD
