@@ -286,3 +286,8 @@ look into higher modes and aproximants for waveform generation
 26.1.2026
 
 svd compression doesn't work with ET ASD
+
+
+27.1.2026
+svd compression for fmin=6 (<20) doesn't work
+when tricking dingo to take ET asd for H1
