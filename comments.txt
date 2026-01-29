@@ -291,3 +291,24 @@ svd compression doesn't work with ET ASD
 27.1.2026
 svd compression for fmin=6 (<20) doesn't work
 when tricking dingo to take ET asd for H1
+
+
+28.1.2026
+patch ET 123 to account for geometry
+
+search sourcae code 
+
+
+waveforems 8k hz 2s 
+cutoff at 4hz
+
+
+29.1.2026
+testing effect of asd parameters:
+
+time psd only relevant when sampling asd from real datas
+
+Tricking Dingo into accepting ET for H1 even with svd works now
+Geometry is not taking into account though
+still have to fork dingo otherwise it would be just 1L ET
+
