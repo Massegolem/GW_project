@@ -312,3 +312,5 @@ Tricking Dingo into accepting ET for H1 even with svd works now
 Geometry is not taking into account though
 still have to fork dingo otherwise it would be just 1L ET
 
+7.2.2026
+Anomalie Detection Trained on timed psd like in DINGO
