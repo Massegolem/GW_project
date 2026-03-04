@@ -314,3 +314,8 @@ still have to fork dingo otherwise it would be just 1L ET
 
 7.2.2026
 Anomalie Detection Trained on timed psd like in DINGO
+
+4.3.2026
+Fillippos Dingo fork gives weird errors, I try adapting dingo myself
+
+need to add detector to bilby and then access it through Dingo
