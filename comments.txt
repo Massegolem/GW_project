@@ -47,7 +47,7 @@ Max mismatch svd size 100= 0.0139 @90s
 Max mismatch svs size 200= 0.0048 @120s
 
 
-
+___________________________________________________________________________
 3.12.2025:
 domain:
   type: UniformFrequencyDomain
@@ -94,7 +94,7 @@ First ASD set 2m17s
 second ASD set 14m30s
 
 No gpu usage for above cases....
-
+___________________________________________________________________________
 5.12.2025:
 
 Batch size has to be reduced from 4096 to 512 due to ram limitation 8gb
@@ -112,11 +112,11 @@ trained in under 20 minimum
 for inference correct ram has to be specified in ini file
 set num of samples and batch size to 5000s
 
-
+___________________________________________________________________________
 15.12.2025
 
 Use aproptiate priors!!!!
-
+___________________________________________________________________________
 16.12.2025
 
 new waveform dataset similar to toy model
@@ -178,7 +178,7 @@ current IS not reliably since few dominating weights
 
 Scaled down modell to weak
 
-
+___________________________________________________________________________
 17.12.2025
 
 Reworked environment hopefully ASD generation is now faster
@@ -224,10 +224,10 @@ waveform dataset 10s
 asd dataset 2m35s
 training 4m6s
 inference 2m42
-
+___________________________________________________________________________
 22.12.2025
 Performance mode has to be reactivated when restarting PC
-
+___________________________________________________________________________
 7.1.2026
 waveform generation needs more ram
 had to decide between higher SVD (-> lower mismatch rate) or more samples
@@ -256,7 +256,7 @@ Set performance mode (if allowed):
 sudo cpupower frequency-set -g performance
 
 
-
+___________________________________________________________________________
 14.1.2026
 
 Do I need an ASD dataset from multiple noise files?
@@ -282,12 +282,12 @@ IMRPhenomD # IMRPhenomXPHM for ET for higher order modes
 
 look into higher modes and aproximants for waveform generation
 
-
+___________________________________________________________________________
 26.1.2026
 
 svd compression doesn't work with ET ASD
 
-
+___________________________________________________________________________
 27.1.2026
 svd compression for fmin=6 (<20) doesn't work
 when tricking dingo to take ET asd for H1
@@ -302,7 +302,7 @@ search sourcae code
 waveforems 8k hz 2s 
 cutoff at 4hz
 
-
+___________________________________________________________________________
 29.1.2026
 testing effect of asd parameters:
 
@@ -319,3 +319,26 @@ Anomalie Detection Trained on timed psd like in DINGO
 Fillippos Dingo fork gives weird errors, I try adapting dingo myself
 
 need to add detector to bilby and then access it through Dingo
+___________________________________________________________________________
+6.3.2026
+I now work with conda environments
+How to keep Fork updated
+####################################################################
+# Create a branch for your changes
+git checkout -b my-custom-feature
+
+# ... make changes ...
+git add .
+git commit -m "my changes"
+
+# When you want to sync with upstream changes
+git checkout main
+git fetch upstream
+git merge upstream/main
+git push origin main
+
+# Rebase your feature branch on top of the updated main
+git checkout my-custom-feature
+git rebase main
+####################################################################
+
