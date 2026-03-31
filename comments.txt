@@ -341,6 +341,19 @@ git push origin main
 git checkout my-custom-feature
 git rebase main
 ####################################################################
+______________________________________________________________________
+20.3.2026
+
+How to add ET to DINGO:
+Create Detectore File in Bilby Format
+Create PSD File in Bilby Format
+Put Files in Bilby rep
+Modify Dingo train_builders.py and injection.py
+Hope for the best
+
+The detector has to be named correctly in ever file (asd, bilby, dingo ...)
+
+Toy model mit einem Detector lässst sich Trainieren!!!
 ________________________________________________________________________
 31.3.2026
 DINGO works now with all 3 detector arms of ET
