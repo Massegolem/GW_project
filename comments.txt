@@ -341,4 +341,8 @@ git push origin main
 git checkout my-custom-feature
 git rebase main
 ####################################################################
+________________________________________________________________________
+31.3.2026
+DINGO works now with all 3 detector arms of ET
+watch out naming everything correctly
 
