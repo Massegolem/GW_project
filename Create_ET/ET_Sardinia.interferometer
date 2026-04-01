@@ -1,0 +1,11 @@
+name = 'ET-sardinia'
+power_spectral_density = PowerSpectralDensity(psd_file='ET_PSD_10km.txt')
+length = 10
+minimum_frequency = 6
+maximum_frequency = 2048
+latitude = 40 + 31./60
+longitude = 9 + 25./60
+elevation = 51.884 
+xarm_azimuth = 70.5674
+yarm_azimuth = 130.5674
+shape = 'Triangle'
