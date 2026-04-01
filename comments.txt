@@ -361,3 +361,11 @@ watch out naming everything correctly
 ________________________________________________________________________
 1.4.2026
 lower mass has not much impact on waveform generation time in dingo
+
+use tmux for server
+
+tmux new -s training
+time dingo_train --settings_file train_settings.yaml --train_dir training
+# Ctrl+B then D to detach
+When you reattach later with tmux attach -t training, if the job finished 
+you'll see the timing output still in the terminal.
