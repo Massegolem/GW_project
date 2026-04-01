@@ -358,4 +358,6 @@ ________________________________________________________________________
 31.3.2026
 DINGO works now with all 3 detector arms of ET
 watch out naming everything correctly
-
+________________________________________________________________________
+1.4.2026
+lower mass has not much impact on waveform generation time in dingo
