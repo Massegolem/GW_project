@@ -369,3 +369,20 @@ time dingo_train --settings_file train_settings.yaml --train_dir training
 # Ctrl+B then D to detach
 When you reattach later with tmux attach -t training, if the job finished 
 you'll see the timing output still in the terminal.
+
+________________________________________________________________________
+2.4.2026
+
+waveform dataset generation on gpu-machine:
+
+T8: 
+699m43.397s = 11h39m
+Max mismatch = 0.003039231914981455
+
+T2:
+Max mismatch = 0.0006156519384585835
+233m2.432s
+
+
+Large files have to be stored in scratch folder!
+Have to rerun...
