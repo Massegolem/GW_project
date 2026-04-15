@@ -419,3 +419,21 @@ ________________________________________________________________________
 9.4.2026
 
 when generating waveforms whitening must match detector asd
+
+________________________________________________________________________
+11.4.2026
+
+T2:
+n = 300
+  Mean mismatch = 2.3601878295469448e-07
+  Standard deviation = 9.034019337347733e-06
+  Max mismatch = 0.0007878256475735146
+  Median mismatch = 2.405791121873335e-10
+  Percentiles:
+    99    -> 1.7497580052538913e-07
+    99.9  -> 3.985194405620569e-05
+    99.99 -> 0.000519105093242135
+Generating dataset of size 5000000
+Saving dataset to /scratch/tpausch/waveforms/waveform_dataset_T2.hdf5
+
+real    416m35.779s
